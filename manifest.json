@@ -1,0 +1,14 @@
+{
+    "name": "Chrome Extension",
+    "description": "Build a Chrome Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "author": "jestrade",
+    "action": {
+        "default_popup": "public/index.html",
+        "default_title": "Chrome Extension"
+    },
+    "permissions": [
+        "contextMenus"
+    ]
+}
